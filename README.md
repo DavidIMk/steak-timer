@@ -58,5 +58,28 @@ npm run dev
 npm run test
 ```
 
+## 🎨 How It Works
+
+### User Inputs:
+- **Cut:** Choose between Ribeye, Sirloin, or Tenderloin.
+- **Thickness:** Select from 1 to 5 cm (automatically converted to inches for calculations).
+- **Doneness:** Select from rare, medium rare, medium, medium well, or well done.
+
+### Timer Calculation:
+- Cooking times are determined based on the chosen cut, doneness, and thickness.
+- The app uses these parameters to compute a total time and starts a countdown.
+
+### Visual Feedback:
+- A rotating clock needle (animated with Framer Motion) shows the timer progress.
+- A dynamic gradient square visualizes the steak's cooking state, gradually shifting from red/pink (raw) to brown (cooked) from the top and bottom.
+- At halfway, a "Flip Your Steak Now" message appears, and a finished message is shown when the timer ends.
+
+### Controls:
+- During the timer, the dropdowns are disabled.
+- Users can pause, resume, or stop the timer.
+
+## 🔖 Screeenshots
+![Steak Timer](https://github.com/davidimk/steak-timer/blob/main/src/assets/screenshot.png?raw=true)
+
 ## 🌟 Contributing
 Feel free to fork this repo and submit pull requests!
