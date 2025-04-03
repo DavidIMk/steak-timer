@@ -21,20 +21,20 @@ export const cookingTimes: Record<Cut, Record<Doneness, number>> = {
     [Doneness.MediumRare]: 180,
     [Doneness.Medium]: 240,
     [Doneness.MediumWell]: 300,
-    [Doneness.WellDone]: 360,
+    [Doneness.WellDone]: 370,
   },
   [Cut.Sirloin]: {
     [Doneness.Rare]: 100,
     [Doneness.MediumRare]: 150,
     [Doneness.Medium]: 210,
     [Doneness.MediumWell]: 270,
-    [Doneness.WellDone]: 330,
+    [Doneness.WellDone]: 340,
   },
   [Cut.Tenderloin]: {
     [Doneness.Rare]: 140,
     [Doneness.MediumRare]: 200,
     [Doneness.Medium]: 270,
     [Doneness.MediumWell]: 330,
-    [Doneness.WellDone]: 390,
+    [Doneness.WellDone]: 400,
   },
 };

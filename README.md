@@ -1,4 +1,4 @@
-# 🥩 Steak Timer App
+# 🥩 Steak Timer Web App
 
 A fun and interactive **React + TypeScript** single-page application that helps you time your steak cooking perfectly! This project is built with **Vite** for fast development and uses **Tailwind CSS** for styling. It also comes with testing support using **Vitest** and **React Testing Library**.
 
