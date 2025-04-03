@@ -14,7 +14,7 @@ export enum Cut {
   Tenderloin = "Tenderloin",
 }
 
-// Cooking times (in seconds per inch) keyed by Cut and Doneness
+// Cooking times (in seconds per centimeter) keyed by Cut and Doneness
 export const cookingTimes: Record<Cut, Record<Doneness, number>> = {
   [Cut.Ribeye]: {
     [Doneness.Rare]: 120,
